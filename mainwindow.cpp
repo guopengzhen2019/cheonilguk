@@ -22,21 +22,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QString button_style = "QPushButton{background-color:white;color: black;}"
            "QPushButton:hover{background-color:silver; color: black;}"
           "QPushButton:pressed{background-color:gray;color:black}";
-//    ui->pushButton0->setStyleSheet(button_style);
-//    ui->pushButton1->setStyleSheet(button_style);
-//    ui->pushButton2->setStyleSheet(button_style);
-//    ui->pushButton3->setStyleSheet(button_style);
-//    ui->pushButton4->setStyleSheet(button_style);
-//    ui->pushButton5->setStyleSheet(button_style);
-//    ui->pushButton6->setStyleSheet(button_style);
-//    ui->pushButton7->setStyleSheet(button_style);
-//    ui->pushButton8->setStyleSheet(button_style);
-//    ui->pushButton9->setStyleSheet(button_style);
-//    ui->pushButton10->setStyleSheet(button_style);
-//    ui->pushButton11->setStyleSheet(button_style);
-//    ui->pushButton12->setStyleSheet(button_style);
-//    ui->pushButton13->setStyleSheet(button_style);
-//    ui->pushButton14->setStyleSheet(button_style);
+
 
 
       QSqlDatabase db=QSqlDatabase::addDatabase("QMYSQL");
